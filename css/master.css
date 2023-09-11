@@ -347,7 +347,7 @@ _______________________________________________________*/
 }
 
 .contactme:hover{
-    font-size: 60px;
+    font-size: 70px;
 }
 
 /* FOOTER
@@ -494,10 +494,16 @@ _______________________________________________________*/
         font-size: x-small;
     }
     .presentation h1{
-        font-size: 34px;
+        font-size: 32px;
     }
     .contactme{
         grid-column: 1;
+    }
+    .up{
+        padding-right: 20px;
+    }
+    .contactme{
+        font-size: 40px;
     }
 }
 
