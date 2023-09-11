@@ -315,7 +315,9 @@ _______________________________________________________*/
 /* icon contact me!
 _______________________________________________________*/
 
-
+.mark{
+    float: left;
+}
 .icon{
     font-size: 30px;
     display: grid;
@@ -325,22 +327,27 @@ _______________________________________________________*/
 
 .contactme {
     grid-row: 1;
-    grid-column: 5/10;
+    grid-column: 1;
     padding-top: 150px;
     margin: 0;
     font-family: myFont;
-    
+    font-size: 60px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
 }
 .pic2{
     width: 504px;
     grid-row: 1;
-    grid-column: 9/13;
 }
 .up{
     float: right;
     grid-column: 15;
     padding-top: 350px;
 
+}
+
+.contactme:hover{
+    font-size: 60px;
 }
 
 /* FOOTER
@@ -420,7 +427,7 @@ _______________________________________________________*/
     }
     .contactme {
         grid-row: 1;
-        grid-column: 3/13;
+        grid-column: 1;
         padding-top: 150px;
         margin: 0;
     }
@@ -485,6 +492,12 @@ _______________________________________________________*/
     }
     .Certification-summary h1{
         font-size: x-small;
+    }
+    .presentation h1{
+        font-size: 34px;
+    }
+    .contactme{
+        grid-column: 1;
     }
 }
 
