@@ -13,32 +13,48 @@
     <title>home</title>
 </head>
 
-
 <body>
     <div class="head">
         <a class="h" id="h4" href="index.html"><img class="castle" src="images\ghost.png"></a>
         <a class="h" id="h6" href="contactMe.html"><img class="castle" src="images\paper-plane.png"></a>
-        <a class="h" id="h6" href="certificat.html"><img class="castle" src="images\medal.png"></a>
+        <a class="h" id="h6" href="certificat.html"><img class="castle" src="images\medal.png"></a> 
     </div>
-    
     <a class="upp" id="down" href="#up" ><img src="images\down.png" class="castle" ></a>
     <div class="title">        
-        <h1 >My LinkedIn Certification</h1>
+        <h1 >Contact Me !</h1>
     </div>
+    <section class="contact">
+        <div class="forum">
+            <form   action="https://formsubmit.co/zradnisarra1999@gmail.com" method="POST">
+                <!-- Honeypot -->
+                    <input type="text" name="_honey" style="display: none;">
+                <!-- Disable Captcha -->
+                <input type="hidden" name="_captcha" value="false">
 
-    <div class="certificat-images">
-        <img class="diplome"  src="images\CertificateOfCompletion_Blender 2.91 Essential Training_page-0001.jpg" > 
-        <img class="diplome"  src="images\CertificateOfCompletion_CSS Essential Training 2019_page-0001.jpg" > 
-        <img class="diplome"  src="images\CertificateOfCompletion_CSS for Programmers_page-0001.jpg" > 
-        <img class="diplome"  src="images\CertificateOfCompletion_Excel Essential Training Microsoft 365 (1)_page-0001.jpg" > 
-        <img class="diplome"  src="images\CertificateOfCompletion_Figma From Design to CSS Implementation_page-0001.jpg" > 
-        <img class="diplome"  src="images\CertificateOfCompletion_Introduction to Graphic Design Concepts_page-0001.jpg" > 
-        <img class="diplome"  src="images\CertificateOfCompletion_JavaScript Essential Training_page-0001.jpg" > 
-    </div>
-    
-
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/success.html">
+                <div class="input">
+                    <input class="in"name="name" type="text" required>
+                    <label class="input-label"  >name</label>
+                </div>
+                <div class="input">
+                    <input class="in"name="email" type="email" required>
+                    <label class="input-label" >email</label>
+                </div>
+                <div class="input">
+                    <input class="in"name="subject" type="text" required>
+                    <label class="input-label"  >subject</label>
+                </div>
+                <div class="input">   
+                    <textarea class="in-text-area" name="message" rows="10"></textarea>
+                    <label class="input-label-text-area" >project detail</label>
+                </div> 
+                <div class="btn">
+                    <button type="submit" class="btn-action" type="button" >send</button>
+                </div>
+            </form>
+        </div>
+    </section>
 </body>
-
 <footer>
     <div class="contact-list22">
             <a class="popup"> <img class="pic picc" src="images\location.gif"><span class="tooltiptext">Oran,Algeria 31000</span></a><br>

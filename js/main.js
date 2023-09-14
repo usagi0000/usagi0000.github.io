@@ -10,6 +10,7 @@ gsap.from('.heart4', 1.2,{opacity: 0, y: -200,delay: .4});
 gsap.from('.heart5', 1.2,{opacity: 0, y: -200,delay: .5});
 gsap.from('.heart6', 1.2,{opacity: 0, y: -200,delay: .6});
 
+gsap.from('.diplome ', 1.2,{opacity: 0, y: -200,delay: 1});
 
 
 
