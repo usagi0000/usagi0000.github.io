@@ -620,9 +620,20 @@ _______________________________________________________*/
 --------------------------------------
 --------------------------------------*/
 .contact{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.contactImg{
+    grid-template-columns: 1;
+    height: 600px;
+    margin: 10%;
+}
+
+.forum{
     background-color: rgb(255, 193, 213 ,0.5) ;
     border-radius: 10px;
-    margin-left: 50%;
+    grid-template-columns: 2;
+    margin-left: 10%;
     margin-right: 5%;
     margin-top: 20px;
     filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
