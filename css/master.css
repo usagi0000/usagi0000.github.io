@@ -3,8 +3,16 @@
     --yellowLight:#EAF27C;
     --pink:#FE98B9;
     --pinkLight:#FFC1D5;
+    --pinkLight-presentation:#FFC1D5;
+    --black:black;
+    --white:white;
   }
-
+.dark-theme{
+    --pink:black;
+    --black:white;
+    --pinkLight-presentation:black;
+    --white: rgb(255, 193, 213 ,0.5);
+}
 
 @font-face{
     font-family: myFont;
@@ -22,6 +30,8 @@ body {
     background-color: var(--pink);
     color: white;
     margin: 0;
+    transition: all 0.3s ease-in-out;
+
 }
 
 img {
@@ -33,7 +43,9 @@ a:hover{
 }
 /*head
 -----------------------------------------------------------------------------------------*/
-
+#icon{
+    cursor: pointer;
+}
 .head a:hover{
     color: white;
 }
@@ -91,8 +103,9 @@ a:hover{
 /* presentation
 ------------------------------------*/ 
 .presentation {
-    background: var(--pinkLight);
+    background: var(--pinkLight-presentation);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: var(--black);
     font-size: 20px;
     padding: 20px;
     display: grid;
@@ -136,12 +149,12 @@ a:hover{
 ------------------------------------*/ 
 .education,.Languages,.Certification{
     border-radius: 10px;
-    background: #FEFEFE;
+    background: var(--white);
     margin:40px 100px ;
-    
-    
 }
-
+.circle{
+        border-radius: 70%;
+}
 #usto{
     width: 75px;
     height:75px;
@@ -154,6 +167,11 @@ a:hover{
 }
 
 .line{
+    height: 150px;
+    filter:none;
+    padding-top: 30px;
+}
+.line2{
     height: 150px;
     filter:none;
     padding-top: 30px;
@@ -233,14 +251,6 @@ a:hover{
 
 }
 
-.heading{
-    padding: 10px;
-    font-size: 26px;
-    background: var(--pinkLight);
-    border-radius: 10px 10px 0px 0px;
-    font-family: myFont;
-    padding-left: 30px;
-}
 
 a{
     color: #000;
@@ -250,6 +260,15 @@ a{
 }
 
 div{
+    color: var(--black);
+}
+.heading{
+    padding: 10px;
+    font-size: 26px;
+    background: var(--pinkLight);
+    border-radius: 10px 10px 0px 0px;
+    font-family: myFont;
+    padding-left: 30px;
     color: #000;
 }
 
@@ -586,7 +605,8 @@ _______________________________________________________*/
 }
 
 .title {
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    color: var(--black);
     font-size: 21px;
     padding: 20px;
     text-align: center;   
@@ -732,7 +752,7 @@ _______________________________________________________*/
     transform: translateY(4px);
   }
   /*success.html
-  */
+  ---------------------------------------------------------*/
 .f{
     filter:none;
 }
