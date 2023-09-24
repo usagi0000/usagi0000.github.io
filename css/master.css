@@ -493,10 +493,11 @@ _______________________________________________________*/
 
         padding-left: 10;
     }
+    
 }
 
 /*affect my pc*/
-@media screen and (min-width:600px)  {
+@media screen and (min-width:500px)  {
 
     .contactme {
 
@@ -509,7 +510,6 @@ _______________________________________________________*/
         .education-detail{
         font-size: small;
     }
-
 
 }
 
@@ -529,7 +529,7 @@ _______________________________________________________*/
         font-size: 5px;
     }
     .education-summary h2{
-        font-size: xx-small;
+        display: none;
     }
     .education-summary li{
         font-size: x-small;
@@ -561,6 +561,9 @@ _______________________________________________________*/
     .pic2{
         height: 190;
     }
+    .but{
+        display: none;
+    }
 
 }
 
@@ -575,6 +578,9 @@ _______________________________________________________*/
 
     .contact-list a,.contact-list2 a{
         font-size: 40px;
+    }
+    .but{
+        display: none;
     }
     
 }
